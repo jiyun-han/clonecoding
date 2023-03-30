@@ -1,0 +1,19 @@
+#headerbox {
+  height: 156px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+}
+html, button, input, select, textarea {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.htext{
+  font-size: 12px;
+  color : black;
+}
+
+.category{text-align: center; position: relative; top: 50%; transform: translateY(-50%); font-size: 16px; font-weight: 500;}
+.logofont{border: 0; outline: 0; font-size: 18px; color: black;}
+.catebox{width: 150px; height: 55px;}
+.bannerimg{position: absolute; transform: translate(-50%,-50%); right: 50%; top: 50%;}
