@@ -16,3 +16,17 @@ html, button, input, select, textarea {
 .logofont{border: 0; outline: 0; font-size: 18px; color: black;}
 .catebox{width: 150px; height: 55px;}
 .bannerimg{position: absolute; transform: translate(-50%,-50%); right: 50%; top: 50%;}
+.rec_box{display: flex; flex-direction: column; width: 249px;}
+.rec_box_img{height: 320px; width: 249px;}
+.rec_box_text{display: flex; flex-direction: column; text-align: left; position: relative;}
+.rec_box_text_title{font-size: 16px; font-weight: 400; line-height: 1.45;}
+.rec_box_text_2{font-size: 14px; color: darkgray; position: relative; top:-10px;}
+.rec_box_text_perc{font-size: 16px; font-weight: 800; color: rgb(250, 98, 47);}
+.rec_box_text_price{position: relative; left: 8px; color: black;}
+.rec_box_text_price_noperc{position: relative; color: black; line-height: 2;}
+.rec_box_text_price2{color: rgb(181, 181, 181); font-size: 14px; text-decoration: line-through;}
+.rec_box_text_rev{color: rgb(181, 181, 181); font-size: 14px; font-weight: 500}
+.memberbox{width: 640px; height: 100px; margin: 0 auto;}
+.memberboxs{display: flex; padding: 10px 20px; justify-content: space-between; align-items: center;}
+.memberboxipt{width: 333px; height: 46px; outline: none; border: 1px solid rgb(221, 221, 221); border-radius: 4px; padding: 0px 11px 1px 15px; font-size: 16px;}
+.memberboxbtn{width: 120px; height: 46px; padding: 0px 10px; color: rgb(95, 0, 128); background-color: white; border: 1px solid rgb(95, 0, 128); border-radius: 3px;}

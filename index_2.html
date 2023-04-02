@@ -55,13 +55,43 @@
   </header>
 
   <div style="margin: 0 auto; text-align: center; font-size: 28px; margin-bottom: 50px; margin-top: 50px;">회원가입</div>
-  <div style="width: 640px; height: 100px; margin: 0 auto;">
+  <div class="memberbox">
       <div style="padding-bottom: 3px; font-size: 12px; color: rgb(102, 102, 102); text-align: right;"><span style="color: red;">*</span> 필수입력사항</div>
       <div><hr></div>
-      <div style="display: flex; padding: 10px 20px; justify-content: space-between; align-items: center;">
+      <div class="memberboxs">
           <div style="width: 139px;">아이디</div>
-          <div><input type="text" placeholder="아이디를 입력해주세요" style="width: 333px; height: 46px; outline: none; border: 1px solid; border-radius: 4px;"></div>
-          <div style="padding-left: 12px;"><button style="width: 120px; height: 44px;"> 중복확인</button></div>
+          <div><input type="text" placeholder="아이디를 입력해주세요" class="memberboxipt"></div>
+          <div style="padding-left: 12px;"><button class="memberboxbtn"><span style="font-weight: 500; font-size: 14px;">중복확인</span></button></div>
+      </div>
+
+      <div class="memberboxs">
+          <div style="width: 139px;">비밀번호</div>
+          <div><input type="text" placeholder="비밀번호를 입력해주세요" class="memberboxipt"></div>
+          <div style="padding-left: 12px;"><div style="width: 120px;"></div></div>
+      </div>
+
+      <div class="memberboxs">
+          <div style="width: 139px;">비밀번호 확인</div>
+          <div><input type="text" placeholder="비밀번호를 한번 더 입력해주세요" class="memberboxipt"></div>
+          <div style="padding-left: 12px;"><div style="width: 120px;"></div></div>
+      </div>
+
+      <div class="memberboxs">
+          <div style="width: 139px;">이름</div>
+          <div><input type="text" placeholder="이름을 입력해주세요" class="memberboxipt"></div>
+          <div style="padding-left: 12px;"><div style="width: 120px;"></div></div>
+      </div>
+
+      <div class="memberboxs">
+          <div style="width: 139px;">이메일</div>
+          <div><input type="text" placeholder="예: marketkurly@kurly.com" class="memberboxipt"></div>
+          <div style="padding-left: 12px;"><button class="memberboxbtn"><span style="font-weight: 500; font-size: 14px;">중복확인</span></button></div>
+      </div>
+
+      <div class="memberboxs">
+          <div style="width: 139px;">휴대폰</div>
+          <div><input type="text" placeholder="숫자만 입력해주세요" class="memberboxipt"></div>
+          <div style="padding-left: 12px;"><button class="memberboxbtn"><span style="font-weight: 500; font-size: 14px;">인증번호 받기</span></button></div>
       </div>
   </div>
 
