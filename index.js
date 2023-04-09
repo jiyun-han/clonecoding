@@ -12,3 +12,31 @@ function init(){
 }
 
 init();
+
+
+function openclose(){
+    if(document.getElementById('tocc2').style.display === 'block'){
+        document.getElementById('tocc2').style.display = 'none';
+
+    } else {
+        document.getElementById('tocc2').style.display = 'block';
+    }
+}
+
+function navigo (){
+  const header = document.querySelector('#headerbox');
+  const headerheight = header.clientHeight;
+document.addEventListener('scroll', onScroll, { passive: true });
+ function onScroll () {
+     const scrollposition = scrollY;
+   const nav = document.querySelector('#nav');
+   if (headerheight<=scrollposition){
+     nav.classList.add('fix')
+   }
+   else {
+     nav.classList.remove('fix');
+   }
+ }
+
+}
+navigo()

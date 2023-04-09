@@ -13,8 +13,12 @@ html, button, input, select, textarea {
 }
 
 .category{text-align: center; position: relative; top: 50%; transform: translateY(-50%); font-size: 16px; font-weight: 500;}
-.logofont{border: 0; outline: 0; font-size: 18px; color: black;}
-.catebox{width: 150px; height: 55px;}
+.logofont{border: 0; outline: 0; font-size: 18px;}
+.logofont>a:link{text-decoration: none; color: #D9D9D9;}
+.logofont>a:hover{color: #5f0080; text-decoration: none;}
+a:hover{color: #5f0080;}
+.catebox{width: 150px; height: 55px; text-decoration: none; color: black; }
+.cateboxmain{padding-left: 12px; font-size: 16px; font-weight: 500; line-height: 20px; letter-spacing: -0.3px;}
 .bannerimg{position: absolute; transform: translate(-50%,-50%); right: 50%; top: 50%;}
 .rec_box{display: flex; flex-direction: column; width: 249px;}
 .rec_box_img{height: 320px; width: 249px;}
@@ -30,3 +34,15 @@ html, button, input, select, textarea {
 .memberboxs{display: flex; padding: 10px 20px; justify-content: space-between; align-items: center;}
 .memberboxipt{width: 333px; height: 46px; outline: none; border: 1px solid rgb(221, 221, 221); border-radius: 4px; padding: 0px 11px 1px 15px; font-size: 16px;}
 .memberboxbtn{width: 120px; height: 46px; padding: 0px 10px; color: rgb(95, 0, 128); background-color: white; border: 1px solid rgb(95, 0, 128); border-radius: 3px;}
+.catebox2{flex:1; display: flex; justify-content: center; align-items: center; border-color: rgb(238, 238, 238); border-style: solid;}
+.navclass{width:1050px; height: 56px; display: flex; justify-content:space-between; align-items: center; margin: 0 auto; background-color: white; position: relative;}
+.fix {
+  width: 1050px;
+  position:fixed;
+  left: 50%;
+  transform: translateX( -50% );
+  top:0px;
+  margin: auto;
+  background-color: white;
+  z-index: 2;
+}
